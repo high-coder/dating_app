@@ -1,3 +1,4 @@
+import 'package:dating_app_final/screens/homeScreen/mainHome.dart';
 import 'package:dating_app_final/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PhoneNumberScreen(),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }
